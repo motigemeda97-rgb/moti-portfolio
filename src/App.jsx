@@ -262,6 +262,12 @@ function App() {
           >
             Find me on GitHub <span>↗</span>
           </a>
+          <a
+  className="button button-secondary"
+  href="mailto:motigemeda97@gmail.com?subject=Hello%20Moti"
+>
+  Email Me <span>↗</span>
+</a>
         </section>
       </main>
 

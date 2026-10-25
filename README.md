@@ -86,60 +86,16 @@ Every project is an opportunity to learn, improve, and build something meaningfu
 
 **Thanks for visiting my portfolio!** ⭐
 
-## 🖥️ Preview
 
-See the portfolio in action:
 
-**[Open the live website](https://motigemeda97-rgb.github.io/moti-portfolio/)**
+## 🖥️ Portfolio Preview
 
-A screenshot of the portfolio will be added here.
+**[🌐 Visit My Live Portfolio](https://motigemeda97-rgb.github.io/moti-portfolio/)**
 
-## ⚙️ Run Locally
+### Homepage
 
-### Prerequisites
+![Moti Gemeda Portfolio Homepage](./portfolio-preview.png)
 
-- Node.js
-- npm
-- Git
+### Featured Projects
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/motigemeda97-rgb/moti-portfolio.git
-   ```
-
-2. Enter the project directory:
-
-   ```bash
-   cd moti-portfolio
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL printed in your terminal.
-
-### Production Build
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-To check code quality:
-
-```bash
-npm run lint
-```
+![Moti Gemeda Portfolio Projects](./portfolio-projects.png)

@@ -9,8 +9,9 @@ const projects = [
     description:
       'A music discovery platform that recommends Afaan Oromoo songs using musical style, scale, mood, and energy.',
     tags: ['Python', 'Streamlit', 'Supabase'],
-    link: 'https://afaan-oromoo-music-recommender.streamlit.app/',
-    linkText: 'View live project ↗',
+        link: 'https://afaan-oromoo-music-recommender.streamlit.app/',
+        linkText: 'View live project ↗',
+        github: 'https://github.com/motigemeda97-rgb/music-recommender',
   },
   {
     number: '02',
@@ -211,18 +212,35 @@ function App() {
                   ))}
                 </div>
 
-                {project.link ? (
-                  <a
-                    className="project-link"
-                    href={project.link}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {project.linkText}
-                  </a>
-                ) : (
-                  <span className="project-status">In development · Learning by building</span>
-                )}
+                <div className="project-links">
+                  {project.link && (
+                    <a
+                      className="project-link"
+                      href={project.link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {project.linkText}
+                    </a>
+                  )}
+
+                  {project.github && (
+                    <a
+                      className="project-link"
+                      href={project.github}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View source on GitHub ↗
+                    </a>
+                  )}
+
+                  {!project.link && !project.github && (
+                    <span className="project-status">
+                      In development · Learning by building
+                    </span>
+                  )}
+                </div>
               </article>
             ))}
           </div>
